@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body-container {
+  width: 100%;
+  height: 100vh;
+}
+.body-2 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 242, 242);
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 75%;
+}
+.about {
+  border: none;
+  color: black;
+  background: transparent;
+}
+.button-2 {
+  position: relative;
+  cursor: pointer;
+}
+.about-button {
+  display: none;
+  background-color: white;
+  position: absolute;
+  width: 160px;
+  border-top: 3px solid orange;
+  right: 5px;
+  padding: 0 0 0 10px;
+  cursor: pointer;
+}
+.button-2:hover .about-button {
+  display: block;
+}
+
+.WEY {
+  position: relative;
+}
+.about-button p {
+  margin-top: 20px;
+}
+
+#WEY {
+  display: none;
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  border-top: 3px solid orange;
+  right: 160px;
+  top: -23px;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+#WEY p {
+  margin-top: 20px;
+}
+
+.WEY:hover #WEY {
+  display: block;
+}
+.about :hover .button-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-cont {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  gap: 10px;
+  padding: 70px;
+  background-color: rgb(255, 255, 255);
+}
+.home {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700px;
+}
+.when {
+  font-size: 14px;
+  font-weight: 400px;
+  font-family: "Poppins", sans-serif;
+}
+.image-div {
+  display: flex;
+  gap: 30px;
+  padding: 0 0 0 60px;
+  margin: 30px 0 0 0;
+  border-radius: 30px 30px 0 0;
+}
+.box-1,
+.box-2 {
+  width: 500px;
+  height: 1000px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 30px;
+}
+.img {
+  width: 100%;
+  height: 50%;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 30px 0 0;
+}
+.Terraces {
+  font-family: Montserrat, sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  padding: 0 0 0 10px;
+  margin: 20px 0 5px 0;
+}
+.Monastery {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgb(233, 92, 12);
+  color: white;
+  margin: 0px 260px 0 10px;
+  padding: 5px 0 5px 0px;
+}
+.icon {
+  display: flex;
+  gap: 100px;
+  margin: 50px 0 0 40px;
+  font-weight: 800px;
+}
+.icon-name {
+  display: flex;
+  gap: 80px;
+  margin: 20px 0 0 33px;
+  font-weight: 800px;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  position: absolute;
+}
+
+.slide img {
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+}
+.slide {
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+  margin: 60px 0 0 0;
+  padding: 0 20px 0 20px;
+  overflow-x: auto;
+}
+.see {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  background-color: rgb(233, 92, 12);
+  border-radius: 20px;
+  padding: 20px;
+  width: 60px;
+  margin-left: 200px;
+}
+.see a {
+  text-decoration: none;
+  color: antiquewhite;
+}
